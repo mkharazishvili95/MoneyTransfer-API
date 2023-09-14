@@ -46,5 +46,5 @@ I added a log model to the project, which means that when a User logs into the s
 and the date when he logged into the system. I wrote HashSettings, the function of which is to pass the fixed password in a hashed state to SQL, for this I used TweetinviAPI.
 I performed migrations, connected my project to the database. For this I used: Microsoft.EntityFrameworkCore.SqlServer, Microsoft.EntityFrameworkCore.Tools, Microsoft.EntityFrameworkCore.
 I tested the project with Swagger and Postman and it works fine, returning all the status codes I expected.
-I wrote tests in the Nunit project, where I created FakeServices and tested one by one the servers I have in the project: TokenGenerator, UserService, AdminService.
+I wrote tests in the Nunit project, where I created FakeServices and tested one by one the services I have in the project: TokenGenerator, UserService, AdminService.
 Everything works perfectly.
