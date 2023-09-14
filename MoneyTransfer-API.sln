@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyTransfer-API", "MoneyTransfer-API\MoneyTransfer-API.csproj", "{2A9FECBF-DC5E-4426-956B-68FB80892691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyTransfer-API-Test", "MoneyTransfer-API-Test\MoneyTransfer-API-Test.csproj", "{679B9041-D867-4604-8A20-4DC9D310BCC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A9FECBF-DC5E-4426-956B-68FB80892691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9FECBF-DC5E-4426-956B-68FB80892691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9FECBF-DC5E-4426-956B-68FB80892691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9FECBF-DC5E-4426-956B-68FB80892691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{679B9041-D867-4604-8A20-4DC9D310BCC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679B9041-D867-4604-8A20-4DC9D310BCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679B9041-D867-4604-8A20-4DC9D310BCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679B9041-D867-4604-8A20-4DC9D310BCC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {004FCA80-D095-42B1-82A3-54E02B225B48}
+	EndGlobalSection
+EndGlobal
